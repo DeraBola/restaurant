@@ -15,7 +15,7 @@ const Navbar = () => (
       <li className='p__opensans'><a href='#about'>About</a></li>
       <li className='p__opensans'><a href='#home'>Menu</a></li>
       <li className='p__opensans'><a href='#awards'>Awards</a></li>
-      <li className='p__opensans'><a href='#contact'>Contact</a></li>
+      <li className='p__opensans'><a href='#come'>Home</a></li>
    </ul>
   </nav>
 );
