@@ -6,7 +6,6 @@ import "./Navbar.css";
 
 const Navbar = () => {
   const [ toggleMenu, setToggleMenu] = useState(false);
-  
   return (
   <nav className="app__navbar">
     <div className="app__navbar-logo">
