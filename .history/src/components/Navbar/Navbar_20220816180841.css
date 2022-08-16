@@ -83,10 +83,5 @@
 }
 
 @media screen and (max-width:1150px) {
-    .app__navbar-links {
-        display: none;
-    }
-    .app__navbar-smallscreen {
-        display: flex;
-    }
+    .app__navbar-links
 }

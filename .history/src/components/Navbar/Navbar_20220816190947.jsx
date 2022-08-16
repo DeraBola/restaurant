@@ -41,7 +41,6 @@ const Navbar = () => {
     <div className="app__navbar-smallscreen">
       <GiHamburgerMenu color="#fff" fontSize={27} onClick={() => setToggleMenu(true)} />
 
-{toggleMenu &&  (
       <div className="app__navbar-smallscreen_overlay flex__center slide-bottom">
         <MdOutlineRestaurantMenu
           fontSize={27}
@@ -66,8 +65,6 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-)}
-
     </div>
   </nav>
 )

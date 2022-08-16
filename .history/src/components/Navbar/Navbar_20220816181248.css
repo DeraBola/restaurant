@@ -86,7 +86,7 @@
     .app__navbar-links {
         display: none;
     }
-    .app__navbar-smallscreen {
+    .app__navbar-small-screen {
         display: flex;
     }
 }
