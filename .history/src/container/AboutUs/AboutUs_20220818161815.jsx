@@ -29,7 +29,7 @@ const AboutUs = () => (
       </div>
 
       <div className="app__aboutus-content_history">
-        <h1 className="headtext__cormorant">Our History </h1>
+        <h1 className="headtext__cormorant">Our H </h1>
         <img src={images.spoon} alt="about_spoon" className="spoon__img" />
         <p className="p__opensans">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra
