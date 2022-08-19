@@ -1,6 +1,6 @@
 import React from 'react';
 import { SubHeading, MenuItem } from "../../components";
-import { images } from "../../constants";
+import { images, data } from "../../constants";
 import './Chef.css';
 
 const Chef = () => (
