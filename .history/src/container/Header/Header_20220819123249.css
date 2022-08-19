@@ -18,7 +18,7 @@
     @media screen and (max-width:650px) {
         .app__header-h1 {
             font-size: 50px;
-            letter-spacing: 0.02em;
+            letter-spacing: 0.04em;
             line-height: 90px;
         }
     }

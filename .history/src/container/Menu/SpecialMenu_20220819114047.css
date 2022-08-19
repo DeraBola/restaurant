@@ -34,7 +34,7 @@
 
 .app__specialMenu-Menu_img {
     width: 410px;
-    margin: 0 2rem;
+    margin: 0 2 rem;
 }
 
 .app__specialMenu-Menu_img img {
@@ -49,23 +49,4 @@
     width: 100%;
 }
 
-@media screen and (max-width:1150px) {
-    .app__specialMenu-Menu {
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-    }
-    .app__specialMenu-Menu_img {
-        margin: 3rem 0;
-    }
-}
-
-@media screen and (max-width:650px) {
-    .app__specialMenu-Menu_img {
-        width: 100%;
-    }
-    .app__specialMenu-Menu_heading {
-        font-size: 35px;
-        line-height: 48.5px;
-    }
-}
+me

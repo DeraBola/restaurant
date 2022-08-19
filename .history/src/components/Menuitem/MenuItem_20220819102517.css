@@ -29,6 +29,4 @@
 
 .app__menuitem-price {
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
 }

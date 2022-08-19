@@ -23,12 +23,10 @@
 .app__menuitem-dash {
     width: 90px;
     height: 1px;
+    /* FAFAFA */
     background: #FAFAFA;
-    margin: 0 1rem;
-}
-
-.app__menuitem-price {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
 }

@@ -49,6 +49,15 @@
     width: 100%;
 }
 
+@media screen and (max-width:2000px) {
+    .app__specialMenu-Menu_img {
+        width: 650px;
+    }
+    .app__specialMenu-Menu_img img {
+        height: 920px
+    }
+}
+
 @media screen and (max-width:1150px) {
     .app__specialMenu-Menu {
         flex-direction: column;
