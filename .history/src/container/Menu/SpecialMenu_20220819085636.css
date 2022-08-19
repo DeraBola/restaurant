@@ -1,0 +1,14 @@
+.app__specialMenu {
+    flex-direction: column;
+    background-color: var(--color-black);
+}
+
+.app__specialMenu-title {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.app__specialMenu-Menu {
+    width: 100%;
+    m
+}
