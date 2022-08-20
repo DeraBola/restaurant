@@ -1,5 +1,5 @@
 import React from "react";
-import { SubHeading } from "../../components";
+import { SubHeading, MenuItem } from "../../components";
 import { images } from "../../constants";
 import "./Chef.css";
 
@@ -19,7 +19,7 @@ const Chef = () => (
           <p className="p__opensans">Lorem ipggggggggggggggggs</p>
         </div>
         <p className="p__opensans">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui vitae ex harum ullam explicabo, rerum, doloremque obcaecati eaque porro beatae voluptas mollitia dolorum fugit similique aperiam repellat magnam pariatur autem.  
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod{" "}
         </p>
       </div>
       <div className="app__chef-sign">

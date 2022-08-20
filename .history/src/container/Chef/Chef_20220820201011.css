@@ -37,14 +37,4 @@
     margin-top: 2rem;
 }
 
-@media screen and (max-width: 2000px) {
-    .app__chef-sign img {
-        width: 350px;
-    }
-}
-
-@media screen and (max-width: 650px) {
-    .app__chef-sign img {
-        width: 80%;
-    }
-}
+@media screen and {}
