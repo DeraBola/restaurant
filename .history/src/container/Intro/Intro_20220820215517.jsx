@@ -5,7 +5,7 @@ import "./Intro.css";
 
 const Intro = () => {
   const [playVideo, setplayVideo] = useState(false);
-  const vidRef = useRef();
+  const VidRef = useRef();
   const handleVideo = () => {
     setplayVideo((prevPlayVideo) => !prevPlayVideo);
     if (playVideo) {
@@ -18,7 +18,7 @@ const Intro = () => {
     <div className="app__video">
       <video
         src={meal}
-        ref={vidRef}
+        ref={VidRef}
         type="video/mp4"
         loop
         controls={false}

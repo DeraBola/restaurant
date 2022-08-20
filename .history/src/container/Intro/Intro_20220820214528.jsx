@@ -5,35 +5,29 @@ import "./Intro.css";
 
 const Intro = () => {
   const [playVideo, setplayVideo] = useState(false);
-  const vidRef = useRef();
+  const VidRef = useRef();
   const handleVideo = () => {
-    setplayVideo((prevPlayVideo) => !prevPlayVideo);
-    if (playVideo) {
-      vidRef.current.pause();
-    } else {
-      vidRef.current.play();
+    setplayVideo((prevPlayVideo) => !prevPlayVideo) 
+    if(playVideo) {
+      videoRef.current.pause 
     }
-  };
+  }
   return (
     <div className="app__video">
       <video
         src={meal}
-        ref={vidRef}
+        ref={VidRef}
         type="video/mp4"
         loop
         controls={false}
         muted
       />
       <div className="app__video-overlay flex__center">
-        <div
-          className="app__video-overlay-circle flex__center"
-          onClick={handleVideo}
+        <div 
+        className="app__video-overlay-circle flex__center" 
+        onClick={handleVideo}
         >
-          {playVideo ? (
-            <BsPauseFill color="#fff" fontSize={30} />
-          ) : (
-            <BsFillPlayFill />
-          )}
+
         </div>
       </div>
     </div>
