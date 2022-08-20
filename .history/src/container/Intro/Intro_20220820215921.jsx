@@ -32,7 +32,7 @@ const Intro = () => {
           {playVideo ? (
             <BsPauseFill color="#fff" fontSize={30} />
           ) : (
-            <BsFillPlayFill color="#fff" fontSize={30} />
+            <BsFillPlayFill  />
           )}
         </div>
       </div>
