@@ -1,7 +1,6 @@
 .app__video {
     height: 100vh;
     position: relative;
-    background: var(--color-black);
 }
 
 .app__video video {
