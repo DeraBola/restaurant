@@ -1,0 +1,39 @@
+    .app__gallery {
+        display: flex;
+        flex-direction: row;
+        background: var(--color-black);
+        padding: 4rem 0 4rem 6rem;
+    }
+    
+    .app__gallery-content {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-width: 500px;
+        padding-right: 2rem;
+    }
+    
+    .app__gallery-content button {
+        margin-top: 1rem;
+    }
+    
+    .app__gallery-images {
+        display: flex;
+        flex: 1;
+        flex: row;
+        max-width: 50%;
+        position: relative;
+    }
+    
+    .app__gallery-images_contianer {
+        display: flex;
+        flex-direction: row;
+        width: max-content;
+        overflow-x: scroll;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+    
+    .app__gallery-images_contianer::-webkit-scrollbar-spin-button {}
