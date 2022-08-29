@@ -17,7 +17,6 @@
 
 .app__gallery-content button {
     margin-top: 1rem;
-    margin-bottom: 1rem;
 }
 
 .app__gallery-images {
@@ -71,14 +70,13 @@
     opacity: 1;
 }
 
-.app__gallery-images_arrow {
+.app__gallery-images_arrows {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 1rem;
     bottom: 5%;
-    position: absolute;
 }
 
 .gallery__arrow-icon {
@@ -126,6 +124,5 @@
     }
     .app__gallery-images_card {
         min-width: 240px;
-        height: 320px;
     }
 }

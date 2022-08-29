@@ -12,7 +12,7 @@
     align-items: flex-start;
     flex-direction: column;
     max-width: 500px;
-    padding-right: 2rem;
+    padding-right: 1rem;
 }
 
 .app__gallery-content button {

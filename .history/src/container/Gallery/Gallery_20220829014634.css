@@ -6,7 +6,7 @@
 }
 
 .app__gallery-content {
-    flex: 1;
+    flex: ;
     display: flex;
     justify-content: center;
     align-items: flex-start;
