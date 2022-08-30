@@ -21,7 +21,7 @@
 
 .app__footer-links-contacts,
 .app__footer-links-logo,
-.app__footer-links_work {
+.app__footer-links-work {
     flex: 1;
     margin: 1rem;
     text-align: center;
@@ -60,8 +60,4 @@
     font-size: 32px;
     line-height: 41.6px;
     margin-bottom: 1rem;
-}
-
-.footer__copyright {
-    margin-top: 3rem;
 }
