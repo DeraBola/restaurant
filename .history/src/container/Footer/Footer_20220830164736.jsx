@@ -10,7 +10,7 @@ const Footer = () => (
 
     <div className="app__footer-links">
       <div className="app__footer-links-contacts">
-        <h1 className="app__footer-headtext">Contact Us</h1>
+        h1
       </div>
       <div className="app__footer-links-logo"></div>
       <div className="app__footer-links_work"></div>

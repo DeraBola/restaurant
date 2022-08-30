@@ -29,11 +29,7 @@
     width: max-content;
 }
 
-@media screen and (min-width:2000px) {
-    .app__newsletter-input input {
-        font-size: 2rem;
-    }
-}
+@media screen and (min-width:2000px) {}
 
 @media screen and (max-width:990px) {
     .app__newsletter-input {
@@ -58,4 +54,10 @@
         font-size: 32px;
         line-height: 50px;
     }
+}
+
+line-height: 50px;
+
+}
+
 }
