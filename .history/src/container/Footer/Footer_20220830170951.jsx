@@ -23,16 +23,10 @@ const Footer = () => (
       <div className='app__footer-links-icons'>
      <FiFacebook />
      <FiTwitter /> 
-     <FiInstagram />
+     FiInstagram
       </div>
       </div>
-      <div className="app__footer-links_work">
-      <h1 className="app__footer-headtext">Working Hours</h1>
-        <p className='p__opensans'>Monday-Friday</p>
-        <p className='p__opensans'>08:00am-12:00am</p>
-        <p className='p__opensans'>Saturday-Sunday</p>
-        <p className='p__opensans'>07:00am-11:00am</p>
-      </div>
+      <div className="app__footer-links_work"></div>
     </div>
     <div className="footer__copyright">
       <p className="p__opensans">2021 Gericht. All rights reserved.</p>
