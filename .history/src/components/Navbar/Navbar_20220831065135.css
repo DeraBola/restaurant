@@ -5,10 +5,6 @@
         align-items: center;
         background: var(--color-black);
         padding: 1rem 2rem;
-        z-index: 100;
-        top: 0;
-        position: sticky;
-    }
     
     .app__navbar-logo {
         display: flex;
@@ -127,4 +123,4 @@
         .app__navbar-logo img {
             width: 110px;
         }
-    }
+        }

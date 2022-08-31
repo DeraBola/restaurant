@@ -1,11 +1,14 @@
-import React from 'react';
+import React, { useState, useEffect, useRef }  from 'react';
 
 import { AboutUs, Chef, FindUs, Footer, Gallery, Header, Intro, Laurels, SpecialMenu } from './container';
 import { Navbar } from './components';
 import './App.css';
 
-const App = () => (
-    
+ 
+        .removeEventListener("scroll", handleScroll);
+    }, [goingUp]);
+
+
   <div>
     <Navbar />
     <Header />

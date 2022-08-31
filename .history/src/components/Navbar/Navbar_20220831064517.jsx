@@ -19,7 +19,7 @@ console.log("window.scrollY");
   });
 
   return (
-  <nav className={`${fix ? 'app__navbar' : 'app__navbar'}`} >
+  <nav className={`${fix ? 'app__navbar' : 'app__navbar'} >
     <div className="app__navbar-logo">
       <img src={images.gericht} alt="app logo" />
     </div>

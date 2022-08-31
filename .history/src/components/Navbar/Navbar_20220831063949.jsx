@@ -11,15 +11,15 @@ const Navbar = () => {
  
   useEffect(() => {
     const setFixed = () =>{
-      setFix(window.scrollY > 200);
-console.log("window.scrollY");
+      setFix(window.scrollY > 200);c
+
     };
     window.addEventListener("scroll", setFixed);
     return() => window.removeEventListener("scroll", setFixed);
   });
 
   return (
-  <nav className={`${fix ? 'app__navbar' : 'app__navbar'}`} >
+  <nav className={fix ? 'app__navbar' : 'app__navbar'} >
     <div className="app__navbar-logo">
       <img src={images.gericht} alt="app logo" />
     </div>

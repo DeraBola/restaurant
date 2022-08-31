@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MdOutlineRestaurantMenu } from "react-icons/md";
 import images from "../../constants/images";
@@ -6,20 +6,17 @@ import "./Navbar.css";
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
-
   const [fix, setFix ] = useState(false);
- 
-  useEffect(() => {
-    const setFixed = () =>{
-      setFix(window.scrollY > 200);
-console.log("window.scrollY");
-    };
-    window.addEventListener("scroll", setFixed);
-    return() => window.removeEventListener("scroll", setFixed);
-  });
+function setFixed() {
+  if(window.scrollY >= 392){
+    setFix(true)
+  }else{
+    setFix(false)
+  }
+}
 
   return (
-  <nav className={`${fix ? 'app__navbar' : 'app__navbar'}`} >
+  <nav className="app__navbar">
     <div className="app__navbar-logo">
       <img src={images.gericht} alt="app logo" />
     </div>
