@@ -29,8 +29,10 @@ const AboutUs = () => (
       <div className="app__aboutus-content_history">
         <h1 className="headtext__cormorant">Our History </h1>
         <img src={images.spoon} alt="about_spoon" className="spoon__img" />
-        <p className="p__opensans"style={{textTransform:'lowercase'}} >
-        Our restaurant then a little shop in Hessen was EST 1993, by grandma Egritcht. Who’s passion has created one of the most sort after restaurant in all of Europe. 29 years and we’re still dishing out mouth watering cuisine.
+        <p className="p__opensans">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra
+          adipiscing ultrices vulputate posuere tristique. In sed odio nec
+          aliquet eu proin mauris et.
         </p>
         <button className="custom__button">Know More</button>
       </div>

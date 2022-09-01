@@ -16,7 +16,7 @@ const Chef = () => (
       <div className="app__chef-content">
         <div className="app__chef-content_quote">
           <img src={images.quote} alt="quote" />
-          <p className="p__opensans" style={{textTransform: 'lowercase'}}>We pride ourselves in our generational recipes </p>
+          <p className="p__opensans">We the restaurant that pride ourselves in our generational recipes </p>
         </div>
         <p className="p__opensans">
         To fill the earth with the light and warmth of hospitality by delivering exceptional experiences – every restaurant, every guest, every time.

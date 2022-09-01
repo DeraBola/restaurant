@@ -65,7 +65,7 @@ const awards = [
   {
     imgUrl: images.award01,
     title: 'Rising Star',
-    subtitle: 'In recognition of the finest dining and entertainment venues',
+    subtitle: 'In recognition of the finest dining and entertainment venues and wining',
   },
   {
     imgUrl: images.award05,

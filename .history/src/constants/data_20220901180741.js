@@ -65,7 +65,7 @@ const awards = [
   {
     imgUrl: images.award01,
     title: 'Rising Star',
-    subtitle: 'In recognition of the finest dining and entertainment venues',
+    subtitle: 'In recognition of the finest dining and entertainment venues and wining',
   },
   {
     imgUrl: images.award05,
@@ -75,7 +75,7 @@ const awards = [
   {
     imgUrl: images.award03,
     title: 'Outstanding Chef',
-    subtitle: 'In recognition of outstanding achievement in international and local cuisine',
+    subtitle: 'outstanding achievement in international luxury restaurant luxury ',
   },
 ];
 

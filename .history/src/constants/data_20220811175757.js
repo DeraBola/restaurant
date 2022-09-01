@@ -60,22 +60,22 @@ const awards = [
   {
     imgUrl: images.award02,
     title: 'Bib Gourmond',
-    subtitle: 'In recognition of excellence in food and dining',
+    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
   },
   {
     imgUrl: images.award01,
     title: 'Rising Star',
-    subtitle: 'In recognition of the finest dining and entertainment venues',
+    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
   },
   {
     imgUrl: images.award05,
     title: 'AA Hospitality',
-    subtitle:  'This award serves as recognition of sustained commitment to service excellence',
+    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
   },
   {
     imgUrl: images.award03,
     title: 'Outstanding Chef',
-    subtitle: 'In recognition of outstanding achievement in international and local cuisine',
+    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
   },
 ];
 

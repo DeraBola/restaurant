@@ -16,8 +16,8 @@ const AboutUs = () => (
       <div className="app__aboutus-content_about">
         <h1 className="headtext__cormorant">About Us</h1>
         <img src={images.spoon} alt="about_spoon" className="spoon__img" />
-        <p className="p__opensans" style={{textTransform:'lowercase'}}>
-        Gericht is a German restaurant in the heart of Hessen that creates traditional and foreign meals with well selected ingredients  to serve to our customers who appreciates exotic meals and have palatable tastebuds. 
+        <p className="p__opensans">
+          
         </p>
         <button className="custom__button">Know More</button>
       </div>
@@ -29,8 +29,10 @@ const AboutUs = () => (
       <div className="app__aboutus-content_history">
         <h1 className="headtext__cormorant">Our History </h1>
         <img src={images.spoon} alt="about_spoon" className="spoon__img" />
-        <p className="p__opensans"style={{textTransform:'lowercase'}} >
-        Our restaurant then a little shop in Hessen was EST 1993, by grandma Egritcht. Who’s passion has created one of the most sort after restaurant in all of Europe. 29 years and we’re still dishing out mouth watering cuisine.
+        <p className="p__opensans">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra
+          adipiscing ultrices vulputate posuere tristique. In sed odio nec
+          aliquet eu proin mauris et.
         </p>
         <button className="custom__button">Know More</button>
       </div>

@@ -11,15 +11,15 @@ const Chef = () => (
 
     <div className="app__wrapper_info">
       <SubHeading title="Chef's Word" />
-      <h1 className="headtext__cormorant"  style={{fontSize: 58}}>What we believe in</h1>
+      <h1 className="headtext__cormorant"  stylw={{FontFac}}>What we believe in</h1>
 
       <div className="app__chef-content">
         <div className="app__chef-content_quote">
           <img src={images.quote} alt="quote" />
-          <p className="p__opensans" style={{textTransform: 'lowercase'}}>We pride ourselves in our generational recipes </p>
+          <p className="p__opensans">Lorem ipggggggggggggggggs</p>
         </div>
         <p className="p__opensans">
-        To fill the earth with the light and warmth of hospitality by delivering exceptional experiences – every restaurant, every guest, every time.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui vitae ex harum ullam explicabo, rerum, doloremque obcaecati eaque porro beatae voluptas mollitia dolorum fugit similique aperiam repellat magnam pariatur autem.  
         </p>
       </div>
       <div className="app__chef-sign">
