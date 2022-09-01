@@ -18,7 +18,7 @@ const Chef = () => (
           <img src={images.quote} alt="quote" />
           <p className="p__opensans" style={{textTransform: 'lowercase'}}>We pride ourselves in our generational recipes </p>
         </div>
-        <p className="p__opensans" style={{textTransform: 'lowercase'}} >
+        <p className="p__opensans"style={{textTransform: 'lowercase'}} >
         To fill the earth with the light and warmth of hospitality by delivering exceptional experiences – every restaurant, every guest, every time.
         </p>
       </div>
