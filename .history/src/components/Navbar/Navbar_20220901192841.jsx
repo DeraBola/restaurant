@@ -67,7 +67,7 @@ console.log("window.scrollY");
             <a href="#about">About</a>
           </li>
           <li className="p__opensans">
-            <a href="#menu">Menu</a>
+            <a href="#home">Menu</a>
           </li>
           <li className="p__opensans">
             <a href="#awards">Awards</a>
